@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- NORMAL CSS LINK -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- FONTAWESOME CDN LINK -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- VANILLA JS SCRIPT -->
+    <script src="app.js" defer></script>
+    <title>Turkish Weather</title>
+  </head>
+  <body>
+    <div class="app">
+      <div class="app-header">
+        <div class="app-header-head"><h1>Turkish Weather</h1></div>
+        <div class="app-header-content">
+          <input type="text" placeholder="Enter The City Name..." id="input" />
+          <button>
+            <i class="fa-solid fa-magnifying-glass fa-bounce"></i>
+          </button>
+        </div>
+      </div>
+      <div class="app-content">
+        <div class="app-content-name"></div>
+        <div class="app-content-degree"></div>
+        <div class="app-content-desc"></div>
+        <div class="app-content-minmax"></div>
+      </div>
+    </div>
+  </body>
+</html>

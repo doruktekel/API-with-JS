@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: monospace;
+  color: bisque;
+  background: url(weather.jpg) no-repeat center/cover;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+.app-header-head {
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 5px 5px 5px black;
+  letter-spacing: 4px;
+}
+.app-header-content input,
+.app-header-content button {
+  background: transparent;
+  color: bisque;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  text-align: center;
+}
+.app-header-content input {
+  border-bottom: 2px solid bisque;
+  margin-bottom: 40px;
+  padding: 4px;
+}
+.app-header-content ::-moz-placeholder {
+  color: bisque;
+  text-align: center;
+  opacity: 0.6;
+}
+.app-header-content ::placeholder {
+  color: bisque;
+  text-align: center;
+  opacity: 0.6;
+}
+.app-content-name {
+  font-size: 45px;
+  font-weight: bolder;
+  text-shadow: 2px 2px 2px black;
+}
+.app-content-degree {
+  font-size: 50px;
+}
+.app-content-desc, .app-content-minmax {
+  font-size: 30px;
+  font-style: italic;
+  margin-top: 10px;
+}/*# sourceMappingURL=style.css.map */
